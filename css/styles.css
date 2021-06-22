@@ -1,0 +1,146 @@
+body {
+    font-family: "Montserrat";
+    text-align: center;
+    box-sizing: border-box;
+  }
+.nav-logo{
+    max-height: 40px;
+    max-width: 40px;
+}
+.title-image{
+    height: 23.75em;
+    width: 22.688em;
+    margin: 33px 2px;
+}
+.big-heading{
+    padding: -7px 102px;
+    margin: 6% 19%;
+}
+.nav-item{
+margin: 10px;
+}
+#home{
+    text-align: left;
+    background-color:  #63a4ff;
+    background-image: linear-gradient(315deg, #63a4ff 0%, #83eaf1 74%);
+}
+#home h1{
+    font-size: 4em;
+    color: #fff;
+}
+.of{
+    font-family: 'Dancing Script', cursive;
+}
+.idea{
+    font-weight: bold;
+}
+#home .btn{
+    margin: 0% 18%;
+}
+.home-row{
+    margin-top: 76px;
+    height: 459px;
+}
+
+/* About-Us */
+#about {
+    text-align: center;
+}
+.about-img{
+    max-height: 500px;
+    max-width: 500px;
+}
+.about-para{
+   text-align: left;
+   margin-top: 68px;
+    padding: 30px;
+}
+#about h1{
+    margin: 2px;
+}
+.about-heading{
+font-weight: bold;
+}
+#domains{
+    color: #fff;
+    background-color: #6767a5;
+background-image: linear-gradient(315deg, #4a4a91 0%, #009ffd 74%);
+}
+#domains .card{
+    height: 300px;
+    max-height: 300px;
+    margin: 3px;
+}
+.row-card{
+    color: black;
+}
+#domain .card-header{
+    font-weight:900;
+}
+.project-card img{
+    
+    height: 200px;
+    width: 200px;
+    margin: 7% 15%;
+    border-radius: 360%;
+}
+#project{
+    margin-top: 20px;
+    text-align:center;
+    
+}
+.pricing-card{
+     background: rgba(255,255,255,0.3);;
+}
+#project h1{
+    font-weight: bolder;
+}
+#footer{
+    background-color:  #63a4ff;
+    background-image: linear-gradient(315deg, #63a4ff 0%, #83eaf1 74%);
+    height: 150px;
+    text-align: center;
+}
+.social-icon{
+    margin: 20px;
+    
+}
+
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 990px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    .about-img{
+        display: none;
+    }
+    #home{
+        height: 800px;
+    }
+    .title-image{
+        margin: 7% 20%;
+        box-sizing: border-box;
+    } 
+}
+
+@media only screen and (max-width: 740px)
+{
+    .about-img{
+        display: none;
+    }
+    #home{
+        height: 700px;
+        
+    }
+    .title-image{
+        box-sizing: border-box;
+        margin: 2px;
+        height: 16em;
+        width: 14em;
+        margin-top: 20px;
+        margin-left: 52px;
+    } 
+    .home-row {
+        margin-top: 66px;
+    }
+}
